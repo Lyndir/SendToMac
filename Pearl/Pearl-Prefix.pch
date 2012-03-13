@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Pearl' target in the 'Pearl' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define PEARL
+
+#import "Pearl.h"
